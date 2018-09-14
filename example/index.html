@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <title>Walrus.js</title>
+</head>
+<body>
+
+    <h1>{{message}}</h1>
+    <div>
+        <h2>{{name}}</h2>
+        <h3>{{counter}}</h3>
+        <h4 w-if="counter">Counter is greater than zero</h4>
+        <input w-value="name" type="text"/>
+        <button onclick="Application.$.onClick();">On Click</button>
+        <button w-click="Application.$.onClick();">Use W-CLICK</button>
+        <div w-include="views/profile.html"></div>
+        <ul>
+            <li w-for="todo in todos">
+              {{ todo.text }} <b>{{ todo.text }}</b>
+            </li>
+        </ul>
+        
+        <button onclick="Application.$.onAddTask();">Add task!</button>
+    </div>
+
+    <script type="text/javascript" src="../lib/walrus.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
