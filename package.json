@@ -1,0 +1,29 @@
+{
+  "name": "walrusjs",
+  "version": "1.0.0",
+  "description": "WalrusJS is a small but powerfull Javascript Framework with the a set of \"must have\" features for web development.",
+  "main": "lib/wlrus.js",
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgermiranda/walrusjs.git"
+  },
+  "keywords": [
+    "mustache",
+    "walrusjs",
+    "template",
+    "html"
+  ],
+  "author": "Jorge Miranda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorgermiranda/walrusjs/issues"
+  },
+  "homepage": "https://github.com/jorgermiranda/walrusjs#readme"
+}
