@@ -1,6 +1,6 @@
 {
   "name": "walrusjs",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "WalrusJS is a small but powerfull Javascript Framework with the a set of \"must have\" features for web development.",
   "main": "lib/wlrus.js",
   "directories": {
